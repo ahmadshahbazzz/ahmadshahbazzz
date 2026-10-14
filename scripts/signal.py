@@ -118,6 +118,6 @@ if __name__ == "__main__":
     total, weeks = fetch()
     os.makedirs("assets", exist_ok=True)
     for name, t in THEMES.items():
-        open(f"assets/hero-{name}.svg", "w").write(hero(t))
+        open(f"assets/intro-{name}.svg", "w").write(hero(t))
         open(f"assets/signal-{name}.svg", "w").write(signal(total, weeks, t))
     print(f"{total} contributions, {len(weeks)} weeks")
