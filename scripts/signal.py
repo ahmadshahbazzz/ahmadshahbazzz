@@ -49,7 +49,7 @@ def hero(t):
         L = int(sum(math.dist(pts[j], pts[j + 1]) for j in range(len(pts) - 1))) + 10
         rows.append(f'''<g transform="translate(0 {y})"><path d="{smooth(pts)}" fill="none" stroke="{col}" stroke-opacity="{op:.2f}" stroke-width="{sw}" stroke-dasharray="{L}" stroke-dashoffset="{L}" class="w" style="animation-delay:{.05*i:.2f}s">
 <animateTransform attributeName="transform" type="translate" from="0 0" to="-{per:.1f} 0" dur="{16 + i * 1.5:.1f}s" repeatCount="indefinite"/></path></g>''')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Ahmad. I build AI products, and I do research in machine learning. Lahore, Pakistan.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Ahmad. I build AI products, and I do research across fields. Lahore, Pakistan.">
 <defs><linearGradient id="f" x1="{X0}" x2="{X0 + 260}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
 <mask id="m"><rect width="{W}" height="{H}" fill="url(#f)"/></mask></defs>
 <style>{FONTS}
@@ -63,7 +63,7 @@ def hero(t):
 <rect width="{W}" height="{H}" fill="{t["bg"]}"/>
 <g mask="url(#m)">{"".join(rows)}</g>
 <text x="-6" y="140" class="n">Ahmad</text>
-<text x="0" y="214" class="s">I build AI products, and I do research in machine learning.</text>
+<text x="0" y="214" class="s">I build AI products, and I do research across fields.</text>
 <text x="0" y="262" class="p">Lahore, Pakistan</text>
 </svg>'''
 
