@@ -44,7 +44,7 @@ const ahmad = {
   <img alt="My last 12 months of GitHub contributions, drawn as seven signal lines, one per weekday" src="./assets/signal-dark.svg" width="100%">
 </picture>
 
-<p align="center"><sub>redrawn every day from my contribution graph</sub></p>
+<p align="center"><sub>redrawn every day from my contribution graph · if these lines ever go flat, consider me dead</sub></p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,vue,fastapi,py,docker,tensorflow,cpp,linux&perline=9" alt="React · TypeScript · Vue · FastAPI · Python · Docker · TensorFlow · C++ · Linux">
