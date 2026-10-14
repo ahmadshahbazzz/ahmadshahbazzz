@@ -7,24 +7,18 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cts%2Cjs%2Cdart%2Ccpp%2Cc%2Cphp%2Chtml%2Ccss%2Cbash&theme=dark&perline=11">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py%2Cts%2Cjs%2Cdart%2Ccpp%2Cc%2Cphp%2Chtml%2Ccss%2Cbash&theme=light&perline=11">
-  <img src="https://skillicons.dev/icons?i=py%2Cts%2Cjs%2Cdart%2Ccpp%2Cc%2Cphp%2Chtml%2Ccss%2Cbash&theme=dark&perline=11" alt="Python, TypeScript, JavaScript, Dart, C++, C, PHP, HTML, CSS, Bash" height="44">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cvue%2Cflutter%2Cfastapi%2Cnodejs%2Ctailwind%2Cpostgres%2Cmysql%2Credis%2Cfirebase&theme=dark&perline=11">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react%2Cvue%2Cflutter%2Cfastapi%2Cnodejs%2Ctailwind%2Cpostgres%2Cmysql%2Credis%2Cfirebase&theme=light&perline=11">
-  <img src="https://skillicons.dev/icons?i=react%2Cvue%2Cflutter%2Cfastapi%2Cnodejs%2Ctailwind%2Cpostgres%2Cmysql%2Credis%2Cfirebase&theme=dark&perline=11" alt="React, Vue, Flutter, FastAPI, Node.js, Tailwind, PostgreSQL, MySQL, Redis, Firebase" height="44">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch%2Ctensorflow%2Csklearn%2Copencv%2Cdocker%2Clinux%2Cgit%2Cgithubactions%2Cfigma%2Carduino%2Craspberrypi&theme=dark&perline=11">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch%2Ctensorflow%2Csklearn%2Copencv%2Cdocker%2Clinux%2Cgit%2Cgithubactions%2Cfigma%2Carduino%2Craspberrypi&theme=light&perline=11">
-  <img src="https://skillicons.dev/icons?i=pytorch%2Ctensorflow%2Csklearn%2Copencv%2Cdocker%2Clinux%2Cgit%2Cgithubactions%2Cfigma%2Carduino%2Craspberrypi&theme=dark&perline=11" alt="PyTorch, TensorFlow, scikit-learn, OpenCV, Docker, Linux, Git, GitHub Actions, Figma, Arduino, Raspberry Pi" height="44">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cts%2Cdart%2Ccpp%2Creact%2Cvue%2Cflutter%2Cfastapi%2Cpytorch%2Ctensorflow%2Cdocker%2Clinux&theme=dark&perline=12">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py%2Cts%2Cdart%2Ccpp%2Creact%2Cvue%2Cflutter%2Cfastapi%2Cpytorch%2Ctensorflow%2Cdocker%2Clinux&theme=light&perline=12">
+  <img src="https://skillicons.dev/icons?i=py%2Cts%2Cdart%2Ccpp%2Creact%2Cvue%2Cflutter%2Cfastapi%2Cpytorch%2Ctensorflow%2Cdocker%2Clinux&theme=dark&perline=12" alt="Python, TypeScript, Dart, C++, React, Vue, Flutter, FastAPI, PyTorch, TensorFlow, Docker, Linux" height="40">
 </picture>
 
 <br><br>
+
+**Now:** building LLM workflows and AI video and voice pipelines at InfiniteGoose.<br>
+**Researching:** machine learning and AI systems, from vision to security.<br>
+**Ask me about:** taking an AI idea from prototype to production, or publishing research as an undergrad.
+
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/signal-dark.svg">
