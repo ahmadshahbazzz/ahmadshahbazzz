@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Ahmad. I build AI products, and I do research across fields. Lahore, Pakistan." src="./assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/intro-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/intro-light.svg">
+  <img alt="Ahmad. I build AI products, and I do research across fields. Lahore, Pakistan." src="./assets/intro-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -16,7 +16,7 @@
 
 **Now:** full-stack engineer at InfiniteGoose, building web apps and the AI behind them: LLM workflows, AI video and voice pipelines.<br>
 **Researching:** across fields, from AI security and cryptography to computer vision and wireless sensing.<br>
-**Ask me about:** taking an AI idea from prototype to production, or turning a research question into a published paper.
+**Ask me about:** building AI products, or the research I'm working on.
 
 <br>
 
