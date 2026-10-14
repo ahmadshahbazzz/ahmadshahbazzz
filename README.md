@@ -1,13 +1,13 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Ahmad: AI products, full-stack, research" src="./assets/header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Ahmad: AI products, full-stack, research" src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 ```ts
 const ahmad = {
-  role:     "Associate Software Engineer",
-  at:       "InfiniteGoose",
+  role: "Associate Software Engineer",
+  at: "InfiniteGoose",
 
   ships: [
     "AI SaaS products",
@@ -17,7 +17,7 @@ const ahmad = {
   stack: {
     web: ["React", "TypeScript", "Vue"],
     api: ["FastAPI", "Python"],
-    ai:  ["LangGraph", "OpenRouter"],
+    ai: ["LangGraph", "OpenRouter"],
     ops: ["Docker"],
   },
 
@@ -28,9 +28,13 @@ const ahmad = {
     ],
     published: "IEEE Access, 2026",
   },
-  studied:  "BS Computer Science · CGPA 3.90",
+  degree: "BS Computer Science",
+  cgpa: 3.9,
 
-  openTo: ["AI product builds", "research collaborations"],
+  openTo: [
+    "AI product builds",
+    "research collaborations",
+  ],
 };
 ```
 
