@@ -13,7 +13,7 @@ AI product engineer and full-stack developer in Lahore. I design and ship AI pro
 
 #### Selected work
 
-| | |
+| Product | What it is |
 |---|---|
 | [**Clipsly**](https://www.clipsly.org) | A new AI-made video on a YouTube channel every day. I built the generation and scheduling backend. |
 | [**SiteVo**](https://sitevo.org) | Websites that build, host and rank themselves. I designed the theming engine that keeps AI-generated sites on-brand. |
@@ -23,7 +23,7 @@ AI product engineer and full-stack developer in Lahore. I design and ship AI pro
 
 #### Research
 
-**Feasibility and Deployment Analysis of Wi-Fi-Based Human Activity Recognition on a Memory-Constrained Microcontroller**
+**Feasibility and Deployment Analysis of Wi-Fi-Based Human Activity Recognition on a Memory-Constrained Microcontroller**<br>
 A. W. Malik, **M. Ahmad**, K.-I. Kim · *IEEE Access*, 2026 · [paper](https://doi.org/10.1109/ACCESS.2026.3742666) · [code, firmware and results](https://github.com/ahmadshahbazzz/esp32-csi-har-frontier)
 
 Which activity-recognition models really run on a classic ESP32 with 520 kB of RAM, using only Wi-Fi signals? Measured on the board: memory, latency, energy, and a 30-minute live capture-to-prediction run.
