@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Ahmad. I build AI products, and I do research in machine learning. Lahore, Pakistan." src="./assets/hero-dark.svg" width="100%">
+  <img alt="Ahmad. I build AI products, and I do research across fields. Lahore, Pakistan." src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 <br>
@@ -15,7 +15,7 @@
 <br><br>
 
 **Now:** building LLM workflows and AI video and voice pipelines at InfiniteGoose.<br>
-**Researching:** machine learning and AI systems, from vision to security.<br>
+**Researching:** across fields, from AI security and cryptography to computer vision and wireless sensing.<br>
 **Ask me about:** taking an AI idea from prototype to production, or publishing research as an undergrad.
 
 <br>
