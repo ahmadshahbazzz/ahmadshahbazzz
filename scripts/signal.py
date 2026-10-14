@@ -79,6 +79,8 @@ def fetch():
 def signal(total, weeks, t):
     W, H, L, R, TOP, GAP = 1200, 430, 64, 1196, 92, 34
     days = [d for w in weeks for d in w["contributionDays"]]
+    ld = max((d["date"] for d in days if d["contributionCount"]), default=None)
+    last = "never" if not ld else "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()[int(ld[5:7]) - 1] + " " + str(int(ld[8:]))
     peak = max(d["contributionCount"] for d in days) or 1
     xs = lambda i: L + (R - L) * i / (len(weeks) - 1)
     rows = []
@@ -95,7 +97,7 @@ def signal(total, weeks, t):
             seen.add(dt[:7])
             ticks.append(f'<text x="{xs(i):.0f}" y="{TOP + 30 + 6 * GAP + 36}" class="m">{"Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()[int(dt[5:7]) - 1]}</text>')
     y0, y1 = TOP + 2, TOP + 30 + 6 * GAP + 12
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{total} GitHub contributions in the past year, drawn as seven waves, one per weekday. If these lines ever go flat, consider me dead.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{total} GitHub contributions in the past year, drawn as seven waves, one per weekday. Last active {last}. If these lines ever go flat, consider me dead.">
 <style>{FONTS}
 .h{{font:24px text,{SANS};fill:{t["ink"]}}}
 .m{{font:15px text,{SANS};fill:{t["mute"]}}}
@@ -107,7 +109,7 @@ def signal(total, weeks, t):
 {"".join(rows)}{"".join(ticks)}
 <line class="scan" x1="0" x2="0" y1="{y0}" y2="{y1}" stroke="{t["sig"]}" stroke-width="1.5">
 <animateTransform attributeName="transform" type="translate" from="{L} 0" to="{R} 0" dur="9s" repeatCount="indefinite"/></line>
-<text x="0" y="{H - 12}" class="c">If these lines ever go flat, consider me dead.</text>
+<text x="0" y="{H - 12}" class="c">Last active {last}. If these lines ever go flat, consider me dead.</text>
 </svg>'''
 
 
