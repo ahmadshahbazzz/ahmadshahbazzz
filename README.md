@@ -14,9 +14,9 @@
 
 <br><br>
 
-**Now:** building LLM workflows and AI video and voice pipelines at InfiniteGoose.<br>
+**Now:** full-stack engineer at InfiniteGoose, building web apps and the AI behind them: LLM workflows, AI video and voice pipelines.<br>
 **Researching:** across fields, from AI security and cryptography to computer vision and wireless sensing.<br>
-**Ask me about:** taking an AI idea from prototype to production, or publishing research as an undergrad.
+**Ask me about:** taking an AI idea from prototype to production, or turning a research question into a published paper.
 
 <br>
 
